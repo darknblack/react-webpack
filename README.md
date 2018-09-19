@@ -39,9 +39,9 @@ Root Directory/
 |-- src/
 |   |-- index.jsx ______________________________________ # Application entry
 |   |-- template.html __________________________________ # Template
-|   |-- reducer.js _____________________________________ # Application init
 |   |-- components/
 |       |-- body.jsx ___________________________________ # Sample component
+|       |-- reducer.js _________________________________ # React Reducer
 |   |-- css/
 |       |-- style.sass _________________________________ # Sample style (css,sass,scss)
 |   |-- images/
@@ -59,11 +59,11 @@ Root Directory/
 
 ### Configuration
 - `config/paths.js` Paths config (You can change this according to your need)
-- `config/webpack.config.js` main webpack config that merge common and webpack based environment.
-- `config/webpack.common.js` webpack config for both environments.
-- `config/webpack.dev.js` webpack config for devevelopment.
-- `config/webpack.prod.js` webpack config for production.
-- Enzyme config `/setupTest.js` here you will have all setup for enzyme to test your component.
+- `config/webpack.config.js` Main webpack config that merge common and webpack based environment.
+- `config/webpack.common.js` Webpack config for both environments.
+- `config/webpack.dev.js` Webpack config for devevelopment.
+- `config/webpack.prod.js` Webpack config for production.
+- `/setupTest.js` Enzyme config
 
 ### Powered by the following:
 - [Webpack 4](https://github.com/webpack/webpack)

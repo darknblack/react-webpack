@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { hot } from 'react-hot-loader';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
-import reducer from './reducer';
+import reducer from './components/reducer';
 import Body from './components/body';
 import 'bootstrap/dist/css/bootstrap.css';
 import './css/style.sass';
