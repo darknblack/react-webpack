@@ -58,7 +58,7 @@ Root Directory/
 ```
 
 ### Configuration
-- Path config `config/paths.js`
+- `config/paths.js` Paths config (You can change this according to your need)
 - `config/webpack.config.js` main webpack config that merge common and webpack based environment.
 - `config/webpack.common.js` webpack config for both environments.
 - `config/webpack.dev.js` webpack config for devevelopment.
