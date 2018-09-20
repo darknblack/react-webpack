@@ -1,5 +1,5 @@
 {
-  "name": "react-webpack-starter",
+  "name": "react-webpack",
   "version": "1.0.0",
   "description": "React Webpack Starter Kit",
   "main": "index.js",
@@ -40,7 +40,7 @@
       "jsx"
     ]
   },
-  "repository": "https://github.com/darknblack/react-webpack-starter",
+  "repository": "https://github.com/darknblack/react-webpack",
   "author": "Ian Ishmael Oderon",
   "license": "MIT",
   "engines": {
